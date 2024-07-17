@@ -6,7 +6,9 @@ values of the object.
 **Hint**: Use spread syntax to spread out elements into an array!
 */
 
-// Your code here 
+function breakDownObj(obj) {
+  return [...Object.keys(obj), ...Object.values(obj)];
+}
 
 // console.log(breakDownObj(
 //   { name: 'Rupert', age: 5, speak: 'Meow' }

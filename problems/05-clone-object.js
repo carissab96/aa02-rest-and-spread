@@ -13,7 +13,8 @@ const obj = {
   green: "hexagon"
 }
 
-// Your code here 
+let { green, ...objClone } = { ...obj, yellow: "pentagon" };
+
 
 // console.log(objClone);  // { red: "circle", blue: "square", yellow: "pentagon" }
 // console.log(green);     // hexagon
